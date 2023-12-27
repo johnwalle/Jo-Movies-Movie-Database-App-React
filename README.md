@@ -1,6 +1,8 @@
 # **JO-MOVIES**
-![Alt Text](https://i.imgur.com/rkFSuUV.png)
-
+![Alt Text](https://i.imgur.com/muc9199.png)
+![Alt Text](https://i.imgur.com/awXBbC6.png)
+![Alt Text](https://i.imgur.com/MCAclPw.png)
+![Alt Text](https://i.imgur.com/omtltON.png)
 
 # Installation
 
@@ -31,9 +33,8 @@ To use this project, follow the steps below:
    This command will install all the required packages and dependencies specified in the project's `package.json` file.
 
 
-### 4. Configure the project by providing any necessary settings or credentials. You may need to create configuration files or modify existing ones according to your environment.
 
-## 5. Start the application by running the following command:
+### 4. Start the application by running the following command:
 
 
    `npm start`
@@ -42,7 +43,7 @@ To use this project, follow the steps below:
    This command will start the application and make it accessible through a local server.
 
 
-6. Open your web browser and navigate to `http://localhost:3000` to view and interact with the application.
+## 5. Open your web browser and navigate to `http://localhost:3000` to view and interact with the application.
 
    Note: The specific URL and port number may vary depending on the project's configuration.
 
