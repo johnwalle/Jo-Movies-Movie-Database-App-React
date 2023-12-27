@@ -1,0 +1,89 @@
+.contactus{
+    display: block;
+    background-image: linear-gradient(to left top, #ffffff, #e3f5ff, #a5f3ff, #4cf1fc, #12ebc3);
+    height: 70vh;
+    width: 100vw;
+}
+.contact__contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+   
+    
+}
+span ,p,.icon{
+    font-size: 21px;
+}
+.icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.contact__contents p{
+    padding-bottom: 6px;
+    opacity: 0.5;
+}
+.contactus 
+h1{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 70px;
+}
+.padding{
+    margin-right: 40px;
+}
+.social__media h3{
+    margin-top: 40px;
+    font-family: cursive;
+    font-weight: 600;
+}
+.social__media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.social__media .media__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    
+
+}
+a .social__iocns:hover{
+    padding-top: 12px;
+    transform: rotate();
+}
+.social__iocns{
+    font-size: 30px;
+    padding-left:  20px;
+    padding-top: 14px;
+}
+
+
+
+
+
+@media (max-width: 799px){
+    .contact__contents{
+       display: flex;
+       justify-content: flex-start;
+       flex-direction: column;
+    }
+    .padding{
+        margin-top: 20px;
+    }
+    .phone{
+        margin-left: -40px;
+    }
+    
+    .contactus{
+     
+      height: 700px;
+    
+    }
+
+}

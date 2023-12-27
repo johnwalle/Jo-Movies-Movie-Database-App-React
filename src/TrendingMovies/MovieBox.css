@@ -1,0 +1,64 @@
+
+#movie_container{
+margin-right: 10px;
+background-image: linear-gradient(to right top, #ffffff, #e3f5ff, #a5f3ff, #4cf1fc, #12ebc3);
+
+}
+.movie_contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  height: 470px;
+}
+#movie_posters{
+    border-radius: 15px;
+    width: 250px;
+    height:350px;
+    margin-bottom: 0;
+    cursor: pointer;
+
+}
+img#movie_posters:hover {
+  transform: scale(1.1); /* Adjust the scale factor for zooming out */
+}
+p.vote_average{
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: 600;
+    color: yellow;
+    text-shadow: rgb(255, 4, 0) 1px 0px 0px, rgb(255, 4, 0) 0.540302px 0.841471px 0px, rgb(255, 4, 0) -0.416147px 0.909297px 0px, rgb(255, 4, 0) -0.989992px 0.14112px 0px, rgb(255, 4, 0) -0.653644px -0.756802px 0px, rgb(255, 4, 0) 0.283662px -0.958924px 0px, rgb(255, 4, 0) 0.96017px -0.279415px 0px;    margin-bottom: 20px;
+   
+}
+h1.movie_titles{
+  margin-top: -3px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+ 
+
+.release-date{
+  color: black;
+    margin-top: -7px;
+    font-size: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+  
+@media   (max-width:472px){
+  #movie_container{
+    margin-bottom: 15px;
+    }
+    #movie_posters{
+     width: 60vw;
+     height: 50vh;
+  
+  }
+  .movie_contents {
+    margin-left: 20px;
+    border-radius: 15px;
+    height: fit-content;
+    width: 60vw;
+  }
+}

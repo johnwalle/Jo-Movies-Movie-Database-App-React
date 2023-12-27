@@ -1,0 +1,77 @@
+.image__container img {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover; /* Zoom out the image to fit while maintaining aspect ratio */
+    filter: blur(3px);
+
+}
+.welcome-message {
+    position: absolute;
+    text-align: center;
+    padding: 50px 0;
+    top: 7%;
+    left: 3%;
+    color: white;
+  }
+  
+  .welcome-message h1 {
+ 
+  font-size: 48px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  }
+  
+  .welcome-message p {
+    font-size: 25px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+   
+  }
+  
+  .search-form {
+    position: absolute;
+    display: flex;
+    top: 55%;
+    left: 10%;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+    width: 60vw;
+    height: 25px;
+
+  }
+  input::placeholder {
+    font-size: 17px;
+    font-style: italic;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  /* Optional: Style on hover */
+  .search-button:hover {
+    background-color: #45a049;
+  }
+
+  @media (max-width: 680px){
+    .welcome-message h1 {
+ 
+        font-size: 43px;
+        font-family: "Source Sans Pro", Arial, sans-serif;
+        }
+        
+        .welcome-message p {
+          font-size: 22px;
+          font-family: "Source Sans Pro", Arial, sans-serif;
+         
+        }
+  }

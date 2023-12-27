@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+#popular_movies_container{
+    width: 90vw;
+  display: flex;
+  margin-top:40px ;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-left: 30px;
+}
+
+#popular_movies_container::-webkit-scrollbar{
+    width: 0px;
+  }
+
+  .Popular_movies_heading{
+
+    max-height: 100px; /* Set the maximum height of the parent container */
+    margin-top: 10px;
+    font-family: Sevillana;
+
+
+}
+.Popular_movies_heading h1{
+ font-weight: 600;
+ font-size: 35px;
+ margin-left: 40px;
+}

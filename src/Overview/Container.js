@@ -29,16 +29,14 @@ function App() {
     fetch(API_TOP_RATED)
       .then((res) => res.json())
       .then(data => {
-        
-        console.log("the top rated one fetched successfully")
         console.log(data);
         setTopRatedMovies(data.results);
       })
       .catch(error => {
         console.error("Error fetching top-rated movies:", error);
       });
-   
     
+
   }, []);
 
  
@@ -65,8 +63,6 @@ function App() {
           <TopRatedMovies key={movieReq.id} {...movieReq} />
         ))}
      </div>
-  
-
      <Contact />
         </>
   );
