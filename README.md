@@ -30,7 +30,8 @@ To use this project, follow the steps below:
    
    This command will install all the required packages and dependencies specified in the project's `package.json` file.
 
- 4. Configure the project by providing any necessary settings or credentials. You may need to create configuration files or modify existing ones according to your environment.
+
+### 4. Configure the project by providing any necessary settings or credentials. You may need to create configuration files or modify existing ones according to your environment.
 
 ## 5. Start the application by running the following command:
 
